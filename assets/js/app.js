@@ -20,3 +20,9 @@ function removeBtn() {
 window.onload = function () {
     document.body.style.backgroundColor = "yellow";
 }
+
+function countPara() {
+    const paragraphs = document.getElementsByTagName('p');
+    const count = paragraphs.length;
+    alert("Number of paragraphs: " + count);
+};
